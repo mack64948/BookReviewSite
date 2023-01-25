@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+
+.main{
+    flex: 0 0 70%;
+    background-color: var(--sunset-beige);
+    height: 100%;
+    padding: 20px 50px 0 50px;
+    overflow-y: scroll;
+}
+
+

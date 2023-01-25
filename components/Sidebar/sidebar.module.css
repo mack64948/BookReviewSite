@@ -1,0 +1,14 @@
+.sidebar{
+    font-size: 2em;
+    font-family: "Philosopher";
+    padding: 50px 0 0 20px;
+    flex: 1 0 300px;
+    color: beige;
+    background-color: var(--sunset-orange);
+
+}
+
+.sidebarLink{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}

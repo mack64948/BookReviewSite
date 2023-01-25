@@ -1,0 +1,30 @@
+
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0 20px 20px;
+    border: 2px solid var(--sunset-medium-brown);
+    background-color: var(--sunset-yellow);
+    margin-bottom: 20px;
+}
+
+.listItem{
+    
+   
+    background-color: var(--sunset-medium-brown);
+    color: var(--sunset-beige);
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

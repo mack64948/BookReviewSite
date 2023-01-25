@@ -1,9 +1,20 @@
+:root{
+  --sunset-beige: #F2F0D5;
+  --sunset-yellow: #F2EA79;
+  --sunset-orange: #D96704;
+  --sunset-light-brown: #8C501C;
+  --sunset-medium-brown: #59270A;
+  --sunset-dark-brow: #0D0D0D;
+
+}
+
 html,
 body {
+  font-size: 62.5%;
   padding: 0;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Philosopher, Fredoka One, Faustina, sans-serif;
 }
 
 a {
@@ -35,4 +46,36 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+section{
+  list-style: none;
+}
+
+section h2{
+  font-family: "Faustina";
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+section p{
+  font-family: "Faustina";
+  font-size: 2rem;
+ 
+}
+
+section blockquote{
+  font-family: "Philosopher";
+  font-size: 2rem;
+}
+
+section li{
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+blockquote{
+  font-size: 2em;
+  font-style: italic;
 }

@@ -4,13 +4,13 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Image from 'next/image';
 
-export default function Home() {
+export default function AuthorInfo() {
   return (
     <>
     <Layout>
 
     <Image
-            src="/images/book-cover-devotion-suspect-x.jpeg" // Route of the image file
+            src="/images/keigo-higashino.jpeg" // Route of the image file
             height={500} // Desired size with correct aspect ratio
             width={300} // Desired size with correct aspect ratio
             alt="Amazing Book Reviews Logo"
@@ -23,7 +23,7 @@ export default function Home() {
             }}
         />
       <section>
-        <h2>Intro</h2>
+        <h2>Keigo Higashino: Background</h2>
         <p>
         This site is dedicated to Keigo Higashino's tour de force, Devotion of Suspect X, a popular detective novel that has been made into several film versions in China, Korea, and Japan. It's cross-cultural appeal stems not only from its fast-paced and suspenseful narrative but also from it capacity for raising philosophical and existential questions. If you love the novel too and have insights of your own, please don't hesitate to leave comments and provide your feedback. Donations are much appreciated as well, as book reviews like these require much careful time and effort. I hope to be able to provide additional book reviews in the future. If you have particular requests for book reviews or are in need of help that requires literary analysis, drop me a line. With that, thank you for your support.
         </p>
